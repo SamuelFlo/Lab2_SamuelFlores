@@ -9,11 +9,11 @@ void  segundoejercicio(){
 	cout << "1. Ingrese manualmente: " <<endl;
 	cin>>opcion;
 	if(opcion == 1){
-		int x1,x2,x3,x4,y1,y2,y3,y4, totalx1,totaly1, totalx2, totaly2;
-		int extotalx1,extotaly1,extotalx2,extotaly2;
-		int sumacoor1,radio1,sumacoor2,radio2;
-		int sumasdex1, sumasdey1,exposumax1,exposumay1;
-		int distancia,totaldesumas,sumasderadios;
+		double  x1,x2,x3,x4,y1,y2,y3,y4, totalx1,totaly1, totalx2, totaly2;
+		double extotalx1,extotaly1,extotalx2,extotaly2;
+		double  sumacoor1,radio1,sumacoor2,radio2;
+		double  sumasdex1, sumasdey1,exposumax1,exposumay1;
+		double  distancia,totaldesumas,sumasderadios;
 		cout << "Ingrese la x1: "<<endl;
 		cin >> x1;
 		cout << "Ingrese la y1: "<<endl;
@@ -67,6 +67,7 @@ void tercerejercicio(){
 	cin>>num;
 
 
+
 }
 void  menu(){
 	int opcion = 0;
@@ -88,50 +89,47 @@ void  menu(){
 				cout << "1. Primer triangulo" <<endl;
 				cout << "2. Segundo triangulo"<<endl;
 				cin >> op;
-				if(op == 1){
-					char dato1;
-					char dato2;
-					char dato3;
-					char dato4;
-					char dato5;
-					char dato6;
-					cout << "Ingrese el primer dato: "<<endl;
-					cin >> dato1;
-					cout << "Ingrese el segundo dato: "<<endl;
-					cin >>dato2;
-					cout << "Ingrese el tercer dato: "<<endl;
-					cin >>dato3;
-					cout << "Ingrese el cuarto dato: "<<endl;
-					cin >>dato4;
-					cout << "Ingrese el quinto dato: "<<endl;
-					cin >> dato5;
-					cout << "Ingrese el sexto dato: "<<endl;
-					cin >> dato6;
-
-				}else if(op == 2){
-					char dato21;
-					char dato22;
-					char dato23;
-					char dato24;
-					char dato25;
-					char dato26;
-					cout << "Ingrese el primer dato: " <<endl;
-					cin >> dato21;
-					cout << "Ingrese el segundo dato: "<<endl;
-					cin >> dato22;
-					cout << "Ingrese el tercer dato: "<< endl;
-					cin >> dato23;
-					cout << "Ingrese el quarto dato: " <<endl;
-					cin >> dato24;
-					cout << "Ingrese el quinto dato: " << endl;
-					cin >> dato25;
-					cout <<"Ingrese el sexto dato: " << endl;
-					cin >> dato26;
-
+				char dato1;
+				char dato2;
+				char dato3;
+				char dato4;
+				char dato5;
+				char dato6;
+				cout << "Ingrese el primer dato: "<<endl;
+				cin >> dato1;
+				cout << "Ingrese el segundo dato: "<<endl;
+				cin >>dato2;
+				cout << "Ingrese el tercer dato: "<<endl;
+				cin >>dato3;
+				cout << "Ingrese el cuarto dato: "<<endl;
+				cin >>dato4;
+				cout << "Ingrese el quinto dato: "<<endl;
+				cin >> dato5;
+				cout << "Ingrese el sexto dato: "<<endl;
+				cin >> dato6;
+				char dato21;
+				char dato22;
+				char dato23;
+				char dato24;
+				char dato25;
+				char dato26;
+				cout << "Segundo triangulo"<<endl;
+				cout << "Ingrese el primer dato: " <<endl;
+				cin >> dato21;
+				cout << "Ingrese el segundo dato: "<<endl;
+				cin >> dato22;
+				cout << "Ingrese el tercer dato: "<< endl;
+				cin >> dato23;
+				cout << "Ingrese el quarto dato: " <<endl;
+				cin >> dato24;
+				cout << "Ingrese el quinto dato: " << endl;
+				cin >> dato25;
+				cout <<"Ingrese el sexto dato: " << endl;
+				cin >> dato26;
+				if((dato1==dato21)){
 
 
 				}
-				
 
 
 			}else if(opcion == 2){
