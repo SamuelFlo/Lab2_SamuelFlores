@@ -2,8 +2,32 @@
 #include <math.h>
 #include <ctype.h>
 using namespace std;
-int segundoejercicio(){
+void  segundoejercicio(){
 	int opcion  = 0;
+	cout << "1. Ingrese manualmente: " <<endl;
+
+	if(opcion == 1){
+		int x1,x2,x3,x4,y1,y2,y3,y4;
+		cout << "Ingrese la x1: "<<endl;
+		cin >> x1;
+		cout << "Ingrese la y1: "<<endl;
+		cin >> y1;
+		cout<< "Ingrese la x2: "<<endl;
+		cin >> x2;
+		cout << "Ingrese la y2: "<<endl;
+		cin >> y2;
+		cout << "Ingrese la x3: "<<endl;
+		cin >> x3;
+		cout << "Ingrese la y3: "<<endl;
+		cin >> y3;
+		cout << "Ingrese la x4: " <<endl;
+		cin >> x4;
+		cout << "Ingrese la y4: " << endl;
+		cin >> y4;
+
+
+
+	}
 
 
 
