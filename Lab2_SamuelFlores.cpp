@@ -3,6 +3,8 @@
 #include <ctype.h>
 using namespace std;
 void  segundoejercicio(){
+	int ran;
+	ran=rand()%10+1;
 	int opcion  = 0;
 	cout << "1. Ingrese manualmente: " <<endl;
 	cin>>opcion;
@@ -60,6 +62,9 @@ void  segundoejercicio(){
 
 }
 void tercerejercicio(){
+	int num;
+	cout<<"Ingrese un numero: "<<endl;
+	cin>>num;
 
 
 }
@@ -92,9 +97,6 @@ void  menu(){
 					char dato6;
 					cout << "Ingrese el primer dato: "<<endl;
 					cin >> dato1;
-					if(isdigit(dato1)){
-						
-					}
 					cout << "Ingrese el segundo dato: "<<endl;
 					cin >>dato2;
 					cout << "Ingrese el tercer dato: "<<endl;
@@ -105,10 +107,6 @@ void  menu(){
 					cin >> dato5;
 					cout << "Ingrese el sexto dato: "<<endl;
 					cin >> dato6;
-					if (dato1>=1&&dato1<=47){
-						cout<<"Es un caracter"<<endl;
-
-					}
 
 				}else if(op == 2){
 					char dato21;
@@ -141,7 +139,7 @@ void  menu(){
 
 			}else if(opcion == 3){
 
-
+				tercerejercicio();
 			}
 		}	
 
